@@ -1,0 +1,22 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "DeepPurple",
+    "longName": "JHB Meetup 1 Clock Demo",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "JHB Meetup 1 Clock Demo",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "720c1e5e-de7b-47c1-b220-322fb74ae5bf",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
