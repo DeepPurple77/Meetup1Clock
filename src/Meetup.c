@@ -22,7 +22,7 @@ static void window_unload(Window *window){
 
 void handle_tick(struct tm *tick_time, TimeUnits unit_changed){
 	static char time_text[] = "12:34:56";
-	strftime(time_text,sizeof(time_text),"%H-%M-%S",tick_time);
+	strftime(time_text,sizeof(time_text),"%H:%M:%S",tick_time);
 	text_layer_set_text(s_timeLayer,time_text);
 }
 
